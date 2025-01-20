@@ -1,0 +1,39 @@
+body {
+  background-color: #222 ;
+  color: white ;
+}
+
+.list-group-item {
+  background-color: #212529 ; 
+  color: white ;
+  border: solid gray 1px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-control{
+  background-color: #212529;
+  border: solid gray 1px;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-control:focus {
+  background-color: #212529; 
+  color: white;            
+  border: 1px solid #000; 
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-control::placeholder {
+  color: gray; 
+}
+
+h2{
+  color: rgb(255, 255, 255);
+
+}
+
+.modal-header, .modal-body, .modal-footer{
+  background-color: #212529;
+}

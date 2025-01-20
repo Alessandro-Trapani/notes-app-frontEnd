@@ -1,32 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
-import useAddNote from "./hooks/useAddNote";
-
+import Notes from "./components/Notes";
 function App() {
-  // Example usage:
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
-        <button onClick={() => useAddNote("This is a sample note.")}>
-          Add Note
-        </button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Notes />;
 }
 
 export default App;
